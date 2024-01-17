@@ -6,7 +6,7 @@ export default async function Home() {
   const { home: t } = await translation()
 
   return (
-    <div className="min-h-screen flex mt-12 max-w-lg mx-auto">
+    <div className="min-h-screen flex mt-12 max-w-lg mx-auto p-4">
     <div className="flex flex-col">
       <h1 className="text-3xl font-bold">{t.title}</h1>
       <p className="mt-4">{t.subtitle}</p>
